@@ -1,0 +1,21 @@
+== README
+
+Ruby REST Hello Galaxy Sample Application
+
+Documentation and examples are located:
+	http://www-01.ibm.com/support/knowledgecenter/SSGU8G_12.1.0/com.ibm.json.doc/ids_json_004.htm?lang=en
+	http://ruby-doc.org/stdlib-2.2.2/libdoc/net/http/rdoc/Net/HTTP.html
+	http://apidock.com/ruby/Net/HTTP
+
+For connection to local informix server (non Bluemix), server must have proper wire listener running.  Refer to above
+documentation regarding wire listener configuration.
+
+To deploy onto Bluemix:
+	1.  Create app on bluemix with ruby runtime
+	2.  Download starter code provided.
+	3.  Add appropriate code.  For this example, all code was placed in /app/helpers/application_helper.rb
+	4.  Push modified code to bluemix.
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
