@@ -49,11 +49,11 @@ module ApplicationHelper
 		# create array to store info for output
 		outPut = Array.new
 		# connection info for connecting to local server
-		host = "lxvm-ciiqa3.lenexa.ibm.com"
+		host = "bluemix.ibm.com"
 		port = "10214"
 		dbname = "rubydb"
 		user = "informix"
-		password = "Ibm4pass"
+		password = "informix"
 		collectionName = "rubyRESTGalaxy"
 		joinCollectionName = "rubyRESTJoin"
 		codeTableName = "codetable"
